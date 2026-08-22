@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stub_title">Create a stub for the package name</string>
+    <string name="stub_desc">it will make the system believe the app is installed</string>
+    <string name="hint_package_name">Enter package name</string>
+    <string name="stub_how_it_works">How it works: A stub is just an empty app with the target package name</string>
+    <string name="btn_download_stub">Download stub</string>
+    <string name="blocker_title">Create a blocker for permission declaration with the target package (the blocker itself will have a random package name)</string>
+    <string name="hint_perm_package">Enter target permission package</string>
+    <string name="btn_download_blocker">Download blocker</string>
+    <string name="blocker_desc_1">A stub will be created declaring\ntarget.package_DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</string>
+    <string name="blocker_desc_2">For apps using the AndroidX library, this may create an installation conflict, blocking the installation of target packages while the blocker is installed.</string>
+
+    <string name="unknown_package">unknown package</string>
+    <string name="install_success_pkg">Successful installation: %s</string>
+    <string name="error_enter_pkg">Enter package name</string>
+    <string name="error_build">Build error: %s</string>
+    <string name="error_enter_perm_pkg">Enter target package of permission</string>
+    <string name="install_success">Successful installation!</string>
+    <string name="error_details">Error code: %1$d\n\nDetails:\n%2$s</string>
+    <string name="perm_required_title">Permission required</string>
+    <string name="perm_required_msg">Hi, this app is for installing stubs and blockers for required packages.\n\nPlease grant permissions to work.</string>
+    <string name="btn_grant">Grant</string>
+    <string name="install_error_title">Installation error!</string>
+    <string name="btn_got_it">Got it</string>
+    <string name="error_init_install">Installation initialization error:\n%s</string>
+
+    <string name="play_protect_warning">If \"Google Play Protect\" interferes with the installation of packages, try solving this problem by disabling Google Play Store app (usually responsible for the blocking interface), as well as Google Play Services and of course Google Services Framework</string>
+    <string name="btn_open_play_store">Open Google Play Store app settings</string>
+    <string name="btn_open_play_services">Open Google Play Services app settings</string>
+    <string name="btn_open_gsf">Open Google Services Framework app settings</string>
+    <string name="admin_warning">If you have trouble disabling them, go to administrator settings and disable the \"Find My Device\" administrator</string>
+    <string name="btn_open_device_admin">Go to device administrator settings</string>
+    <string name="retry_after_disable">After disabling these apps, try initiating the installation again</string>
+    <string name="keep_android_open_text">If all this didn\'t help, go to the website\nhttps://keepandroidopen.org\nMay be there you will find a solution to the problem</string>
+</resources>
