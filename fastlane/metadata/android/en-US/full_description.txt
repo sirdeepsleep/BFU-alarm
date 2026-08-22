@@ -1,0 +1,3 @@
+Stub: An empty application with the same package name
+
+Blocker: An empty application with a different package name, creating a permission of the androidX library with the target package name to create a conflict when attempting to install the target package if it uses that library
