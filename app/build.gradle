@@ -1,33 +1,30 @@
 plugins {
-    id 'com.android.application'
+id 'com.android.application'
 }
 
 android {
-    namespace 'installation.fire.wall'
-    compileSdk 34
+namespace "bfu.alarm"
+compileSdk 35
 
-    defaultConfig {
-        applicationId "installation.fire.wall"
-        minSdk 27
-        targetSdk 37
-        versionCode 1
-        versionName "1.0"
+lint {
+        checkReleaseBuilds false
     }
 
-    buildTypes {
-        release {
-            minifyEnabled false
-            shrinkResources false
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
+defaultConfig {  
+    applicationId "bfu.alarm"  
+    minSdk 29
+    targetSdk 37
+    versionCode 1
+    versionName "1.0"  
+}  
+
+buildTypes {  
+    release {  
+        minifyEnabled false  
+        shrinkResources false  
+         }  
 }
 
-dependencies {
-    implementation 'com.android.tools.build:apksig:8.2.0'
-    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
-    implementation 'org.bouncycastle:bcpkix-jdk15on:1.70'
 }
+
+dependencies {}
