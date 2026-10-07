@@ -1,1 +1,1 @@
-A tool for creating stubs and blockers for selected package names
+Simple app to set alarm that will work even in BFU state
