@@ -35,7 +35,7 @@ public class AlarmService extends Service {
                 .setContentType(AudioAttributes.CONTENT_TYPE_UNKNOWN)
                 .build());
             
-            player.setDataSource(this, Settings.System.DEFAULT_RINGTONE_URI);
+            player.setDataSource(this, Settings.System.DEFAULT_ALARM_ALERT_URI);
 
             player.setLooping(true);
             player.setVolume(1.0f, 1.0f);
