@@ -11,7 +11,7 @@
     <application
         android:allowBackup="false"
         android:label="BFU-alarm"
-		android:icon="@drawable/nodpi"
+		android:icon="@drawable/keepsize"
 		android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen"
         android:supportsRtl="false">
 
