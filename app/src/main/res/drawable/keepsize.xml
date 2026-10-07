@@ -3,6 +3,6 @@
         <color android:color="@android:color/white" android:inset="0%" />
     </background>
     <foreground>
-        <inset android:drawable="@drawable/nodpi" android:inset="15℅" />
+        <inset android:drawable="@drawable/nodpi" android:inset="15%" />
     </foreground>
 </adaptive-icon>
